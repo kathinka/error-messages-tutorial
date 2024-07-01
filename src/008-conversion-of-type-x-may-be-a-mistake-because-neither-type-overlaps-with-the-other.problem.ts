@@ -1,7 +1,7 @@
 interface Dog {
-  bark: boolean;
+  bark : boolean;
 }
 
-let cat = { purr: true };
+let cat = { purr: true};
 
-let dog = cat as Dog;
+let dog = cat as unknown as Dog;

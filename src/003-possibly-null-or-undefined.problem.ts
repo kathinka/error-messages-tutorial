@@ -1,5 +1,7 @@
 const searchParams = new URLSearchParams(window.location.search);
 
-const id = searchParams.get("id");
+
+const id = String(searchParams.get("id"));
+
 
 console.log(id.toUpperCase());

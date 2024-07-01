@@ -1,3 +1,6 @@
 class User {
-  private username: string;
+  private username: string = " ";
 }
+
+const user = new User();
+
